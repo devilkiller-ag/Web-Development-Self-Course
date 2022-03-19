@@ -1,0 +1,58 @@
+/* Element Selector - Sselector that directly matches an HTML element name. */
+h1 {
+    color: brown;
+}
+li {
+    list-style-type: devanagari;
+}
+/* Targeting multiple element selectors all at once */
+p, li {
+    color: olive;
+}
+
+/* > Adding a class */
+
+/* Targeting elements with class of special */
+.special {
+    color: orangered;
+    font-weight: bold;
+}
+/* Targeting element with class of special which is inside any li element */
+li.special {
+    color: blue;
+}
+
+/* > Styling things based on their location in a document */
+
+/* Descendant Combinator: ' ' */
+li em {
+    color: rebeccapurple;
+}
+/* Adjacent sibling combinator: '+' */
+h1 + p {
+    font-size: 200%;
+}
+
+/* > Styling things based on state: ':' */
+a:link {
+    color: palevioletred;
+}
+a:visited {
+    color: greenyellow;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* >Combining selectors and combinators */
+article p span {
+    color: chartreuse;
+}
+h1 + ul + p {
+    color: darkolivegreen;
+}
+body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
