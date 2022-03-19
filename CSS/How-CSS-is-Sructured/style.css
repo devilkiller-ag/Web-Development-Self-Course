@@ -1,0 +1,47 @@
+* {
+    /* property + its value = a CSS declaration */
+    background-color: rosybrown;
+}
+
+h1 {
+    /* a block conating set of css declaration is called CSS Declaration Block */
+    color: rgb(73, 73, 73);
+    background-color: black;
+    border: 1px solid black;
+}
+
+.special {
+    /* A CSS Declaration Box + Selector(s) = CSS Ruleset/ CSS Rules */
+    color: gold;
+} 
+
+p {
+    color: red;
+}
+
+/* ----------------------------------Practice------------------------------------------------- */
+
+/* a:link {
+    color: burlywood;
+}
+
+.manythings {
+    font-style: italic;
+}
+
+#onething {
+    font-size: 200%;
+}
+
+
+.box p {
+    font-style: oblique;
+}
+
+.box p:first-child {
+    color: gold;
+}
+
+h1, h2, .intro {
+    color: gray;
+} */

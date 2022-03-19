@@ -1,3 +1,5 @@
+/* A Selector targets HTML to apply styles to content. */
+
 /* Element Selector - Sselector that directly matches an HTML element name. */
 h1 {
     color: brown;
