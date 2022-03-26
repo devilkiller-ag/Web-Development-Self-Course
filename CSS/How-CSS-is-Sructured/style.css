@@ -1,13 +1,26 @@
 * {
     /* property + its value = a CSS declaration */
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
+}
+body {
+    background-image: linear-gradient(to left, rgba(231, 15, 213, 0.5), rgba(0, 0, 255, 0.5));
+}
+
+/* Media queries */
+@media (min-width: 1000px) {
+    body {
+        background-image: linear-gradient(to bottom, rgba(231, 15, 213, 0.5), rgba(0, 0, 255, 0.5));
+    }
+    .exp {
+        box-shadow: 0 0 0 2rem rgb(129 127 254);
+    }
 }
 
 h1 {
     /* a block conating set of css declaration is called CSS Declaration Block */
     color: rgb(73, 73, 73);
-    background-color: black;
-    border: 1px solid black;
+    background-color: rgb(250, 70, 85);
+    border: 1px solid rgb(255, 0, 0);
 }
 
 .special {
@@ -18,6 +31,83 @@ h1 {
 p {
     color: red;
 }
+
+.outer {
+    background-color: transparent;
+    border: 5px solid black;
+}
+
+.inner {
+    width: calc(90% - 30px);
+    /* background-color: blueviolet; */
+    background-image: linear-gradient(to right, rgba(231, 15, 213, 0.5), rgba(0, 0, 255, 0.5));
+    padding: 10px;
+    color: aliceblue;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    margin: 30px;
+    transform: rotate(0.8turn)
+}
+
+.sizy {
+    font-size: 15px;
+    width: 400px;
+    border: dashed red;
+    /* border-width: 4px; */
+    border-top-width: 6px;
+    border-right-style: dotted;
+    border-left-color: blueviolet;
+    border-radius: 5px;
+}
+
+.fonty {
+    /* border: 1rem solid; */
+    /* border: 10px double; */
+    border: 5mm ridge blue;
+    color: green;
+    /* 
+    HSL stands for hue, saturation, and lightness.
+
+HSLA color values are an extension of HSL with an Alpha channel (opacity).
+
+HSL Color Values
+In HTML, a color can be specified using hue, saturation, and lightness (HSL) in the form:
+
+hsl(hue, saturation, lightness)
+
+Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+
+Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
+
+Lightness is also a percentage value, 0% is black, and 100% is white.
+    */
+    background-color: greenyellow;
+    font-size: larger;
+    /* width: max-content;
+    width: min-content; */
+    /* box-sizing: border-box; */
+    /* width: auto; */
+    /* width: 110px; */
+    width: 75%;
+    /* width: fit-content; */
+}
+
+.exp {
+    border: 0.5rem outset rgb(221, 49, 78);
+    outline: 00.5rem solid rgb(252, 124, 64);
+    box-shadow: 0 0 0 2rem rgb(230 133 236);
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 3rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+
+
 
 /* ----------------------------------Practice------------------------------------------------- */
 
