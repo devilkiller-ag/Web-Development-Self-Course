@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple video example</title>
+    <style>
+        video {
+            background: black;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h1>Below is a simple video example</h1>
+
+    <video src="rabbit320.mp4" controls autoplay>
+      <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.webm">link to the video</a> instead.</p> 
+    </video> -->
+
+    <h1>Extra video features example</h1>
+
+    <video controls width="400" height="400" loop muted preload="auto" poster="poster.png">
+        <source src="rabbit320.mp4" type="video/mp4">
+        <source src="rabbit320.webm" type="video/webm">
+        <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.webm">link to the video</a> instead.
+        </p>
+    </video>
+
+    <h1>Below is an audio player that will play in all modern browsers</h1>
+
+    <audio controls preload="auto" loop>
+        <source src="viper.mp3" type="audio/mp3">
+        <source src="viper.oog" type="audio/oog">
+        <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p> 
+    </audio>
+
+    <h1>Displaying video text tracks</h1>
+
+    <video controls>
+        <source src="sintel-short.mp4" type="video/mp4">
+        <source src="sintel-short.webm" type="video/webm">
+        <track kind="subtitles" src="subtitles_es.vtt" srclang="es" label="Spanish">
+    </video>
+
+    <script src="video-player.js"></script>
+</body>
+
+</html>
