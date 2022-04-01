@@ -1,0 +1,105 @@
+.red {
+    color: red;
+}
+
+.yellow-bg {
+    background-color: yellow;
+}
+
+[class~=fancy] {
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+}
+
+#identified {
+    color: palevioletred;
+}
+
+[id=identified] {
+    background-image: linear-gradient(45deg, paleturquoise, palevioletred);
+    width: 50%;
+    height: 100px;
+    color: greenyellow;
+}
+
+a[title] {
+    color: brown;
+}
+
+a[href="developer.mozilla.org"] {
+    color: orangered;
+}
+
+a[href*="dev"] {
+    background-color: pink;
+}
+
+a[href$="a.org"] {
+    border: 4px double dodgerblue;
+}
+
+p[class~=fancy] {
+    background-color: aquamarine;
+    padding: 3px;
+}
+
+a[href^="#"] {
+    background-color: gold;
+}
+
+a[href*="insensitive" i] {
+    color: red;
+}
+
+a[href*="cAsE" s] {
+    color: palevioletred;
+}
+
+a[href^="https"][href$=".org"] {
+    color: green;
+}
+
+div[lang] {
+    font-weight: bold;
+}
+
+div:not([lang]) {
+    font-style: italic;
+}
+
+div[lang~="en-us"] {
+    color: blue;
+}
+
+div[lang="pt"] {
+    color: green;
+}
+
+div[lang|="zh"] {
+    color: red;
+}
+
+div[data-lang="zh-TW"] {
+    color: purple;
+}
+
+ol[type="a"] {
+    list-style-type: lower-alpha;
+    background: red;
+}
+
+ol[type="b" s] {
+    list-style-type: lower-alpha;
+    background: lime;
+}
+
+ol[type="B" s] {
+    list-style-type: upper-alpha;
+    background-color: grey;
+}
+
+ol[type="c" i] {
+    list-style-type: circle;
+    background: green;
+}

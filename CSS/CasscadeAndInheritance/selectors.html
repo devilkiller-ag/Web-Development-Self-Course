@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Ashmit jaiSarita Gupta">
+    <meta name="description" content="This is selector playground.">
+    <title>Selector Playground</title>
+    <link rel="stylesheet" href="selector-style.css">
+</head>
+
+<body>
+    <a href="index.html" title="Home" target="_blank">Home</a>
+    <a href="developer.mozilla.org">mozilla</a>
+
+    <p class="red">This para has red text.</p>
+    <p class="red yellow-bg">This para has red text in yellow background.</p>\
+    <p class="red fancy">This para has red text with fancy styling.</p>
+    <p>This is just a regular para.</p>
+
+    <div id="identified">
+        This div has a special ID.
+    </div>
+    <div>
+        This is a regular div.
+    </div>
+
+    <ul>
+        <li><a href="#internal">Internal link</a></li>
+        <li><a href="http://example.com">Example link</a></li>
+        <li><a href="#InSensitive">Insensitive internal link</a></li>
+        <li><a href="http://example.org">Example org link</a></li>
+        <li><a href="https://example.org">Example https org link</a></li>
+    </ul>
+
+    <div lang="en-us en-gb en-au en-nz">Hello World!</div>
+    <div lang="pt">Olá Mundo!</div>
+    <div lang="zh-CN">世界您好！</div>
+    <div lang="zh-TW">世界您好！</div>
+    <div data-lang="zh-TW">世界您好！</div>
+
+    <ol type="A">
+        <li>Red background for case-insensitive matching (default for the type selector)</li>
+    </ol>
+    <ol type="b">
+        <li>Lime background if `s` modifier is supported (case-sensitive match)</li>
+    </ol>
+    <ol type="B">
+        <li>Grey background if `s` modifier is supported (case-sensitive match)</li>
+    </ol>
+    <ol type="C">
+        <li>Green background if `i` modifier is supported (case-insensitive match)</li>
+    </ol>
+
+</body>
+
+</html>

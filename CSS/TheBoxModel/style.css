@@ -1,0 +1,32 @@
+p, ul {
+    border: 2px solid purple;
+    padding: .5em;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    border: 2px solid blue;
+    margin: 0px 4px 0px 0px;
+    padding: .5em;
+}
+
+span {
+    display: block;
+    border: 2px solid blue;
+    padding: .5em;
+}
+
+a {
+    background-color: pink;
+    border: 2px dotted rebeccapurple;
+    color: purple;
+}
+
+a:hover {
+    background-color: plum;
+    
+}

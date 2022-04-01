@@ -1,0 +1,22 @@
+p, ul {
+    border: 2px solid rebeccapurple;
+    padding: .5em;
+}
+
+span, li {
+    border: 2px solid blue;
+    padding: 0em .3em;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.inline {
+    display: inline;
+}
+
+li {
+    margin: 0.2em;
+}
